@@ -1,0 +1,99 @@
+/* Style da agendameento */
+* {
+    background-color:;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.flex {
+    display: flex;
+}
+.center {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* dados pessoais */
+.dados {
+    width: 50vw;
+    background-color: #CCCEEE;
+    padding: 5px;
+    flex-direction: column;
+}
+.dados * {
+    padding: 5px;
+}
+.dados input {
+    border:2px dotted #CCCEEE;
+    border-radius: 5px;
+}
+.cliente {
+    display: flex;
+    align-items: center;
+}
+.cliente input {
+    margin-left: 5px;
+}
+.cliente * {
+    margin: 5px 0px;
+    padding: 2px;
+}
+/* agendamento */
+.agend {
+    width: 50vw;
+    background-color: #CCCEEE;
+    flex-direction: column;
+    border-left: 2px solid #CCEEFF;
+}
+.agend * {
+    padding: 5px;
+    margin: 5px;
+}
+/* serviço */
+.meio {
+    border: 2px solid #CCEEFF;
+    background-color: #CCCEEE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+.meio * {
+    padding: 5px;
+    margin: 5px;
+}
+/* tabela de serviço */
+.tabela {
+    background-color: #CCCEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text input {
+    width: 500px;
+    height: 100px;
+}
+.text label {
+    margin: 5px;
+    padding: 10px;
+}
+.text label,input {
+    display: flex;
+}
+.test {
+    display: flex;
+    justify-content: center;
+}
+th {
+    background-color: white;
+    padding: 10px;
+    border: 3px solid #CCEEFF;
+}
+td, tr {
+    background-color: white;
+    border:1px solid #CCEEff;
+}
+.box tr:hover {
+    background-color: bisque;
+}
+.box {
+    width: 80%;
+}

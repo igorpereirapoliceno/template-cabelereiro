@@ -1,26 +1,66 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Raleway';
 }
 /* Style da home */
-.menu{
-    background-color:#222 ;
-
+.flex {
+    display: flex;
+}
+.j-around {
+    justify-content: space-around;
+}
+.j-between {
+    justify-content: space-between;
+}
+.d-column {
+    flex-direction: column;
+}
+.center {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.background {
+    background-color: #CCCEFF;
+}
+.box-width {
+    width: 40vw;
 }
 
 
+.topo {
+    color: white;
+    background-image: url(../img/fundo-roxo-claro19.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+}
+.logo h1 {
+    font-size: 22px;
+}
+.logo {
+    justify-content: center;
+    align-items: center;
+}
+.nav {
+    
+}
+.nav li {
+    margin: 5px;
+    padding: 5px;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+}
 
+.menu {
 
-
-
-
-
-
-
-
-
-
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -34,15 +74,6 @@
 footer {
     background-color: #CCCEFF;
     color: white;
-}
-.flex {
-    display: flex;
-}
-.j-around {
-    justify-content: space-around;
-}
-.box-width {
-    width: 40vw;
 }
 .center {
     justify-content: center;
