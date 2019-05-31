@@ -43,9 +43,9 @@
     justify-content: center;
     align-items: center;
 }
-.nav {
+/* .nav {
     
-}
+} */
 .nav li {
     margin: 5px;
     padding: 5px;
@@ -56,7 +56,6 @@
 }
 
 .menu {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,12 +63,26 @@
 
 
 
+.div h2 {
+margin: 40px;
+padding: 20px;
 
-
-
-
-
-
+}
+.div p{
+    margin: 5px;
+    padding: 3px;
+}
+.m-column{
+    color:  rgb(5, 6, 24);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/salao-de-cabeleireiro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
 
 footer {
     background-color: #CCCEFF;
@@ -91,7 +104,7 @@ li {
 }
 .icone i {
     color: white;
-    margin: 5px;
+    margin: 5px ;
     padding: 10px;
     border: 2px solid #333;
     background-color: #333;
@@ -100,4 +113,9 @@ li {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+@media (max-width:764px) {
+
+
 }
