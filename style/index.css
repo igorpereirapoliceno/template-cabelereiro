@@ -44,9 +44,6 @@
     justify-content: center;
     align-items: center;
 }
-/* .nav {
-    
-} */
 .nav li {
     margin: 5px;
     padding: 5px;
@@ -55,6 +52,10 @@
     color: white;
     text-decoration: none;
 }
+.nav a:hover {
+    padding: 40px;
+    background-color: rgba(218, 120, 218, 0.5);
+    border-radius: 20px;
 .menu {
     display: flex;
     justify-content: center;

@@ -1,99 +1,117 @@
-/* Style da agendameento */
 * {
-    background-color:;
+    padding:0;
     margin: 0;
-    padding: 0;
-    font-size: 20px;
+    font-family: 'Raleway';
+    color: white;
 }
+/* topo */
+.background {
+    background-color: #CCCEFF;
+}
+.j-between {
+    justify-content: space-between;
+}
+.topo {
+    color: white;
+    background-image: url(../img/fundo-roxo-claro19.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+}
+.logo h1 {
+    font-size: 22px;
+}
+.logo {
+    justify-content: center;
+    align-items: center;
+}
+.nav li {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+.nav a:hover {
+    padding: 40px;
+    background-color: rgba(218, 120, 218, 0.5);
+    border-radius: 20px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label {
+    display: none;
+    font-size: 25px;
+}
+#toggle{ 
+    display: none;
+}
+/* pag */
 .flex {
     display: flex;
 }
-.center {
+.d-column {
+    flex-direction: column;
+}
+.d-row {
+    flex-direction: row;
+}
+.j-center {
     justify-content: center;
-    align-items: center;
-    text-align: center;
 }
-/* dados pessoais */
-.dados {
-    width: 50vw;
-    background-color: #CCCEEE;
-    padding: 5px;
-    flex-direction: column;
-}
-.dados * {
-    padding: 5px;
-}
-.dados input {
-    border:2px dotted #CCCEEE;
-    border-radius: 5px;
-}
-.cliente {
-    display: flex;
+.a-center{
     align-items: center;
 }
-.cliente input {
-    margin-left: 5px;
+.a-center-1{
+    align-items: center;
 }
-.cliente * {
-    margin: 5px 0px;
-    padding: 2px;
-}
-/* agendamento */
-.agend {
-    width: 50vw;
-    background-color: #CCCEEE;
-    flex-direction: column;
-    border-left: 2px solid #CCEEFF;
-}
-.agend * {
-    padding: 5px;
-    margin: 5px;
-}
-/* serviço */
-.meio {
-    border: 2px solid #CCEEFF;
-    background-color: #CCCEEE;
-    display: flex;
-    flex-direction: column;
-    align-items: center;}
-.meio * {
-    padding: 5px;
-    margin: 5px;
-}
-/* tabela de serviço */
-.tabela {
-    background-color: #CCCEEE;
+span {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
-.text input {
-    width: 500px;
-    height: 100px;
-}
-.text label {
-    margin: 5px;
+.space * {
     padding: 10px;
 }
-.text label,input {
-    display: flex;
+.space {
+    padding: 20px;
 }
-.test {
-    display: flex;
-    justify-content: center;
+.margin {
+    margin: 10px;
 }
-th {
-    background-color: white;
-    padding: 10px;
-    border: 3px solid #CCEEFF;
+.tamanho {
+    width: 50vw;
 }
-td, tr {
-    background-color: white;
-    border:1px solid #CCEEff;
+.font-1 {
+    font-size: 25px;
 }
-.box tr:hover {
-    background-color: bisque;
+.font-2 {
+    font-size: 20px;
 }
-.box {
-    width: 80%;
+.b-width {
+    width: 200px;
+}
+.border {
+    border: 2px solid rgb(218, 136, 218);
+    border-radius: 20px;
+}
+.border-2 {
+    border: 2px solid rgb(218, 136, 218);
+    border-radius: 10px;
+}
+.border-3 * {
+    border: 2px solid rgb(217, 135, 210);
+    border-radius 5px;
+}
+.fundo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/fundo-roxo-claro27.jpg);
+}
+.dife {
+    background-color: rgba(231, 160, 231, 0.5);
 }
