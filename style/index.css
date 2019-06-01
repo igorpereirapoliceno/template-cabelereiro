@@ -167,4 +167,7 @@ li {
     .lista li {
         margin: 10px;
     }
+    footer h3 {
+        margin-top: 10px;
+    }
 }
