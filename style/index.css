@@ -159,9 +159,10 @@ li {
         display: flex;
         flex-direction: column;
     }
-    .lista {
-        display: flex;
-        flex-direction: row;
+    .icone {
+        width: 100%;
+        justify-content:center;
+        margin: 5px;
     }
     .lista li {
         margin: 10px;
