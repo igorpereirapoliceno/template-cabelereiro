@@ -69,7 +69,7 @@
 .a-center-1{
     align-items: center;
 }
-h1, h2, label {
+h1, h2, label, table {
     color: white;
 }
 span {
