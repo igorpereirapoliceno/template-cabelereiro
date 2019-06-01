@@ -1,6 +1,8 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Raleway';
+    color: white;
 }
 
 div.gallery {
@@ -26,18 +28,105 @@ div.gallery {
 
 
 /* Style da home */
-footer {
-    background-color: #CCCEFF;
-    color: white;
-}
 .flex {
     display: flex;
 }
 .j-around {
     justify-content: space-around;
 }
+.j-between {
+    justify-content: space-between;
+}
+.d-column {
+    flex-direction: column;
+}
+.center {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.background {
+    background-color: #CCCEFF;
+}
 .box-width {
     width: 40vw;
+}
+
+.topo {
+    color: white;
+    background-image: url(../img/fundo-roxo-claro19.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+}
+.logo h1 {
+    font-size: 22px;
+}
+.logo {
+    justify-content: center;
+    align-items: center;
+}
+.nav li {
+    margin: 5px;
+    padding: 5px;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+.nav a:hover {
+    padding: 40px;
+    background-color: rgba(218, 120, 218, 0.5);
+    border-radius: 20px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label {
+    display: none;
+    font-size: 25px;
+}
+#toggle{ 
+    display: none;
+}
+
+
+.div h2 {
+    margin: 40px;
+    padding: 20px;
+
+}
+.div p{
+    margin: 5px;
+    padding: 3px;
+}
+.meio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba( 00,00,00, 0.4);
+}   
+.meio * {
+    padding: 10px;
+}
+.m-column{
+    color:  rgb(5, 6, 24);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/salao-de-cabeleireiro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+footer {
+    background-color: rgb(199, 154, 231);
+    color: white;
 }
 .center {
     justify-content: center;
@@ -55,7 +144,7 @@ li {
 }
 .icone i {
     color: white;
-    margin: 5px;
+    margin: 5px ;
     padding: 10px;
     border: 2px solid #333;
     background-color: #333;
@@ -64,4 +153,44 @@ li {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+@media (max-width:764px) {
+    .nav {
+        display: none;
+    }
+    .nav li {
+        margin: 50px
+    }
+    label {
+        display: block;
+        cursor: pointer;
+
+    }
+    #toggle:checked + .nav {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        position: absolute;
+        top: 100px;
+        right:0px;
+        width: 100%;
+        height: 500px;
+        background-color: rgb(199, 154, 231);
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .icone {
+        width: 100%;
+        justify-content:center;
+        margin: 5px;
+    }
+    .lista li {
+        margin: 10px;
+    }
+    footer h3 {
+        margin-top: 10px;
+    }
 }

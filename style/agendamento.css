@@ -1,0 +1,125 @@
+* {
+    padding:0;
+    margin: 0;
+    font-family: 'Raleway';
+}
+/* topo */
+.background {
+    background-color: #CCCEFF;
+}
+.j-between {
+    justify-content: space-between;
+}
+.topo {
+    color: white;
+    background-image: url(../img/fundo-roxo-claro19.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+}
+.logo h1 {
+    font-size: 22px;
+}
+.logo {
+    justify-content: center;
+    align-items: center;
+}
+.nav li {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+.nav a:hover {
+    padding: 40px;
+    background-color: rgba(218, 120, 218, 0.5);
+    border-radius: 20px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu label {
+    display: none;
+    font-size: 25px;
+}
+#toggle{ 
+    display: none;
+}
+/* pag */
+.flex {
+    display: flex;
+}
+.d-column {
+    flex-direction: column;
+}
+.d-row {
+    flex-direction: row;
+}
+.j-center {
+    justify-content: center;
+}
+.a-center{
+    align-items: center;
+}
+.a-center-1{
+    align-items: center;
+}
+h1, h2, label, table {
+    color: white;
+}
+span {
+    display: flex;
+    justify-content: center;
+}
+.space * {
+    padding: 10px;
+}
+.space {
+    padding: 20px;
+}
+.margin {
+    margin: 10px;
+}
+.tamanho {
+    width: 50vw;
+}
+.font-1 {
+    font-size: 25px;
+}
+.font-2 {
+    font-size: 20px;
+}
+.b-width {
+    width: 200px;
+}
+.button {
+    color: white;
+    border: 2px solid rgb(217, 135, 210);
+    background-color: rgb(217, 135, 210);
+    border-radius: 20px;
+}
+.border {
+    border: 2px solid rgb(218, 136, 218);
+    border-radius: 20px;
+}
+.border-2 {
+    border: 2px solid rgb(218, 136, 218);
+    border-radius: 10px;
+}
+.border-3 * {
+    border: 2px solid rgb(217, 135, 210);
+    border-radius 5px;
+}
+.fundo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/fundo-roxo-claro27.jpg);
+}
+.dife {
+    background-color: rgba(231, 160, 231, 0.192);
+}
