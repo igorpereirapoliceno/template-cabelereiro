@@ -29,7 +29,6 @@
     width: 40vw;
 }
 
-
 .topo {
     color: white;
     background-image: url(../img/fundo-roxo-claro19.png);
@@ -56,6 +55,7 @@
     padding: 40px;
     background-color: rgba(218, 120, 218, 0.5);
     border-radius: 20px;
+}
 .menu {
     display: flex;
     justify-content: center;
